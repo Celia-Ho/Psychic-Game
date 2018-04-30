@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Psychic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron bg-dark text-white" >
+    <div class="media">
+      <img class="mr-3" src="assets/images/psychic-ability.jpg" width="300" height="200" alt="psychic-ability">
+      <div class="media-body">
+        <h1 class="display-4">The Psychic Game</h1>
+          <p class="lead">Guess what letter I'm thinking of.</p>
+          <p class="lead">Press any letter from A - Z to start!</p>       
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container">
+    <div class="col-md-12"> <!--Empty Div for the tallies-->
+      <ul class="list-group">
+        <li class="list-group-item bg-dark text-white"><p id="wins">Wins:  </p></li>
+        <li class="list-group-item bg-dark text-white"><p id="losses">Losses:  </p></li>
+        <li class="list-group-item bg-dark text-white"><p id="guessLeft">Guesses Left:  </p></li>
+        <li class="list-group-item bg-dark text-white"><p id="let">Your Guesses So Far:  </p></li>
+      </ul>
+    </div>
+  </div> 
+  
+
+  <br>
+  <br>
+
+  <div class="static-bottom">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a card -->
+        <div class="card bg-dark text-white">
+          <div class="card-body">
+          <div class="text-center">
+            Copyright &copy; 2018 by Celia Ho | <a href="https://celiho.github.io/Responsive-Portfolio/">Portfolio Github Page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
