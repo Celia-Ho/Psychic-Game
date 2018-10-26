@@ -1,3 +1,8 @@
 html, body{
-	background-image: url("../images/psychic-ability.jpg");
-    height: 100%;  
+	background-image: url("../images/bg.jpg");
+    height: 100%;
+}  
+
+.container{
+    height: 100vh;
+}
